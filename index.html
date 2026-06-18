@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Larosy · Premium Medical Care</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ==================== HOME PAGE ==================== -->
+  <div id="page-home" class="page active">
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo" data-page="home">
+          <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+          <span>Larosy</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="active" data-page="home">Home</a>
+          <a href="#services" data-page="services">Services</a>
+          <a href="#testimonials" data-page="about">Testimonials</a>
+          <a href="#contact" data-page="contact">Contact</a>
+          <a href="#contact" data-page="contact" class="btn-nav"><i class="fas fa-phone-alt"></i>+2348038168891</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="pulse-dot"></span>
+              Accepting New Patients
+            </div>
+            <h1 class="hero-title">
+              Your Health,<br>
+              <span>Our Passion</span>
+            </h1>
+            <p class="hero-description">
+              Experience exceptional medical care with a personal touch. 
+              Our world-class team is dedicated to your well-being and recovery.
+            </p>
+            <div class="hero-actions">
+              <a href="https://wa.me/2348038168891"target="_blank" data-page="contact" class="btn btn-primary">
+                <i class="fas fa-calendar-check"></i> Book Appointment
+              </a>
+              <a href="#services" data-page="services" class="btn btn-secondary">
+                <i class="fas fa-play-circle"></i> Explore Services
+              </a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number" data-count="15000">0</span>
+                <span class="stat-label">Happy Patients</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-number" data-count="50">0</span>
+                <span class="stat-label">Expert Doctors</span>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="stat-item">
+                <span class="stat-number" data-count="98">0</span>
+                <span class="stat-label">% Satisfaction</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-image-wrapper">
+              <div class="hero-image-card">
+                <div class="hero-icon">
+                  <i class="fas fa-stethoscope"></i>
+                </div>
+                <div class="hero-image-text">
+                  <h4>Trusted Care</h4>
+                  <p>Since 2023</p>
+                </div>
+              </div>
+              <div class="floating-card card-1">
+                <i class="fas fa-heartbeat"></i>
+                <span>Cardiology</span>
+              </div>
+              <div class="floating-card card-2">
+                <i class="fas fa-brain"></i>
+                <span>Neurology</span>
+              </div>
+              <div class="floating-card card-3">
+                <i class="fas fa-bone"></i>
+                <span>Orthopedics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-background-glow"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Why Choose Us</span>
+          <h2>Exceptional Care,<br>Exceptional Results</h2>
+          <p>We combine cutting-edge technology with compassionate expertise.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <i class="fas fa-microscope"></i>
+            </div>
+            <h3>Advanced Technology</h3>
+            <p>State-of-the-art diagnostics and treatment for accurate, efficient care.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <i class="fas fa-user-md"></i>
+            </div>
+            <h3>Expert Team</h3>
+            <p>Board-certified specialists with decades of combined experience.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Personalized Care</h3>
+            <p>Treatment plans tailored to your unique health needs and goals.</p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrapper">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>24/7 Support</h3>
+            <p>Round-the-clock emergency services and telehealth consultations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Testimonials</span>
+          <h2>What Our Patients Say</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"The care I received was exceptional. The doctors took time to listen and explain everything clearly."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SM</div>
+              <div>
+                <h4>Sarah Mitchell</h4>
+                <span>Cardiology Patient</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Professional, compassionate, and genuinely caring. I felt safe and well-informed throughout my treatment."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">JR</div>
+              <div>
+                <h4>James Rodriguez</h4>
+                <span>Orthopedic Patient</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"The team at Larosy made a difficult time much easier. Their expertise and kindness made all the difference."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">EK</div>
+              <div>
+                <h4>Emily Kim</h4>
+                <span>Neurology Patient</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+      <div class="container">
+        <div class="cta-wrapper">
+          <div class="cta-content">
+            <span class="cta-badge">Get Started</span>
+            <h2>Ready to Feel Better?</h2>
+            <p>Schedule your appointment today and experience the difference that personalized, expert care can make.</p>
+            <div class="cta-actions">
+              <a href="https://wa.me/2348038168891"target="_blank" data-page="contact" class="btn btn-primary">
+                <i class="fas fa-calendar-check"></i> Book Now
+              </a>
+              <a href="https://wa.me/2348038168891" target="_blank" class="btn btn-secondary">
+                <i class="fas fa-phone"></i> Call Us
+              </a>
+            </div>
+          </div>
+          <div class="cta-visual">
+            <div class="cta-icon-wrapper">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#" class="logo" data-page="home">
+              <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                <path d="M2 17l10 5 10-5"/>
+                <path d="M2 12l10 5 10-5"/>
+              </svg>
+              <span>Larosy</span>
+            </a>
+            <p>Compassionate, expert care for every stage of life.</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <a href="#" data-page="home">Home</a>
+            <a href="#" data-page="services">Services</a>
+            <a href="#" data-page="about">About</a>
+            <a href="#" data-page="contact">Contact</a>
+          </div>
+          <div class="footer-links">
+            <h4>Services</h4>
+            <a href="#" data-page="services">Cardiology</a>
+            <a href="#" data-page="services">Neurology</a>
+            <a href="#" data-page="services">Orthopedics</a>
+            <a href="#" data-page="services">Pediatrics</a>
+          </div>
+          <div class="footer-contact">
+            <h4>Contact</h4>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Health Ave, NYC</p>
+            <p><i class="fas fa-phone"></i> +2348038168891</p>
+            <p><i class="fas fa-envelope"></i> info@larosy.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Larosy. All rights reserved.</p>
+          <p>Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> by Aristotle John</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
